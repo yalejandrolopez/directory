@@ -33,6 +33,7 @@ BitFlip<-function(b, pos){
 
 
 HSort <- function (input, st, en, od, c, e, d, di, cnt){
+  n = length(input[[1]])
   if (en<=st){
     return (input)
   }
